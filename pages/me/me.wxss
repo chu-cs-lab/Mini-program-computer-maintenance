@@ -1,0 +1,97 @@
+.box_10 {
+  background-color: rgba(207,234,254,1.000000);
+  height: 358rpx;
+  width: 750rpx;
+  position: absolute;
+  left: 0rpx;
+  top: 156rpx;
+}
+.group_2 {
+  width: 96rpx;
+  height: 48rpx;
+  display: flex;
+  flex-direction: row;
+  margin: 38rpx 0 0 608rpx;
+}
+.button_1 {
+  background-color: rgba(0,82,217,1.000000);
+  height: 48rpx;
+  display: flex;
+  flex-direction: column;
+  width: 96rpx;
+}
+.text_10 {
+  width: 48rpx;
+  height: 40rpx;
+  overflow-wrap: break-word;
+  color: rgba(255,255,255,1.000000);
+  font-size: 24rpx;
+  font-family: Algerian-Regular;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 40rpx;
+  margin: 4rpx 0 0 24rpx;
+}
+.group_3 {
+  width: 480rpx;
+  height: 112rpx;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx 0 140rpx 46rpx;
+}
+.text-wrapper_1 {
+  background-color: rgba(217,217,222,1.000000);
+  height: 112rpx;
+  display: flex;
+  flex-direction: column;
+  width: 112rpx;
+}
+.text_11 {
+  width: 74rpx;
+  height: 32rpx;
+  overflow-wrap: break-word;
+  color: rgba(76,76,87,0.300000);
+  font-size: 24rpx;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 32rpx;
+  margin: 40rpx 0 0 20rpx;
+}
+.text-group_6 {
+  width: 328rpx;
+  height: 112rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text_12 {
+  width: 328rpx;
+  height: 64rpx;
+  overflow-wrap: break-word;
+  color: rgba(38,38,44,1.000000);
+  font-size: 48rpx;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 64rpx;
+}
+.text_13 {
+  width: 328rpx;
+  height: 40rpx;
+  overflow-wrap: break-word;
+  color: rgba(76,76,87,1.000000);
+  font-size: 28rpx;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 40rpx;
+  margin-top: 8rpx;
+}
+.grid{
+}

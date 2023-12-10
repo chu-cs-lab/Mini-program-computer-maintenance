@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<van-nav-bar title="首页"/>
+<swiper
+indicatorDots="{{ swiperOptions.indicatorDots}}"
+autoplay="{{ swiperOptions.autoplay}}"
+interval="{{ swiperOptions.interval}}"
+duration="{{ swiperOptions.duration}}"
+></swiper>
+<view class="nav"> 
+  <van-grid column-num="4">
+    <van-grid-item  url="{{ item.url }}" icon-color="{{ item.color }}" icon="{{item.icon}}" text="{{item.text}}" wx:for="{{ navData }}" />
+  </van-grid>
+</view>
+
+<view class="list-1">
+  <van-card
+  num="1"
+  price="50.00"
+  desc="服务包含防尘罩清灰和内部灰尘清理"
+  title="电脑清灰"
+  thumb="/images/icon-clear.png"
+/>
+</view>
+<view class="list">
+  <van-card
+  num="1"
+  price="50.00"
+  desc="服务包含防尘罩清灰和内部灰尘清理"
+  title="电脑清灰"
+  thumb="/images/icon-clear.png"
+/>
+</view>
+<view class="list">  
+<van-card
+  num="1"
+  price="50.00"
+  desc="描述信息"
+  title="商品标题"
+  thumb="/images/icon-clear.png"
+/>
+</view>  
+<view class="list"> 
+<van-card
+  num="1"
+  price="50.00"
+  desc="描述信息"
+  title="商品标题"
+  thumb="/images/icon-clear.png"
+/>
+</view> 

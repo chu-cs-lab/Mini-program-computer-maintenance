@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/me/me",
+    "pages/list-clear/list-clear"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/icon-index.png",
+        "selectedIconPath": "./images/icon-index-1.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "维修列表",
+        "iconPath": "./images/icon-list.png",
+        "selectedIconPath": "./images/icon-list-1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "./images/icon-me.png",
+        "selectedIconPath": "./images/icon-me-1.png"
+      }
+    ]
+  }
+}

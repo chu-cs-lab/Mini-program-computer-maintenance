@@ -1,0 +1,27 @@
+<!--pages/list/list.wxml-->
+<van-nav-bar title="维修列表"/>
+<van-card
+  num="1"
+  price="50.00"
+  desc="服务包含防尘罩清灰和内部灰尘清理"
+  title="电脑清灰"
+  thumb="/images/icon-clear.png"
+/><van-card
+  num="1"
+  price="50.00"
+  desc="服务包含防尘罩清灰和内部灰尘清理"
+  title="电脑清灰"
+  thumb="/images/icon-clear.png"
+/><van-card
+  num="1"
+  price="50.00"
+  desc="服务包含防尘罩清灰和内部灰尘清理"
+  title="电脑清灰"
+  thumb="/images/icon-clear.png"
+/><van-card
+  num="1"
+  price="50.00"
+  desc="服务包含防尘罩清灰和内部灰尘清理"
+  title="电脑清灰"
+  thumb="/images/icon-clear.png"
+/>

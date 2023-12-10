@@ -1,0 +1,18 @@
+<view class="swiper">
+  <swiper
+      class="myswiper"
+      indicator-dots="{{ indicatorDots }} "
+      autoplay="{{ autoplay }}"
+      interval="{{ interval }}"
+      duration="{{ duration }}"
+      indicator-color="#fff"
+      indicator-active-color="#fa2c19"
+  >
+      <swiper-item>
+        <image src="../../images/swiper-1.jpg" mode="widthFix"/>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/swiper-2.jpg" mode="widthFix"/>
+      </swiper-item>
+  </swiper>
+</view>
