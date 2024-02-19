@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/userManage/userManage",
+    "pages/projectManage/projectManage",
+    "pages/goodManage/goodManage",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/unacceptedInfo/unacceptedInfo"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#D5E5E0",
+    "backgroundColor": "#D5E5E0",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "backgroundColor": "#white",
+    "list": [
+      {
+        "pagePath": "pages/userManage/userManage",
+        "text": "角色管理",
+        "selectedIconPath": "./image/active-address-book.png",
+        "iconPath": "./image/address-book.png"
+      },
+      {
+        "pagePath": "pages/goodManage/goodManage",
+        "text": "订单管理",
+        "selectedIconPath": "./image/active-note.png",
+        "iconPath": "./image/note.png"
+      },
+      {
+        "pagePath": "pages/projectManage/projectManage",
+        "text": "项目管理",
+        "selectedIconPath": "./image/active-checklist.png",
+        "iconPath": "./image/checklist.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "selectedIconPath": "./image/active-user.png",
+        "iconPath": "./image/user.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

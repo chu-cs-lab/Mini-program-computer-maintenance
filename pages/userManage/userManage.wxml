@@ -1,0 +1,51 @@
+<view class="page">
+  <van-search value="{{ value }}" placeholder="请输入搜索关键词" class="search-wrapper"  input-align="center" bind:change="onChange"
+  bind:search="onSearch"
+  bind:cancel="onCancel"/>
+
+
+  <van-grid direction="horizontal" column-num="2" clickable>
+    <van-grid-item text="用户" bind:tap="userPage" />
+    <van-grid-item text="师傅" bind:tap="workerPage"/>
+  </van-grid>
+  <view class="box_5">
+    <van-row>
+      <van-col span="4" offset="12">
+        <van-button type="info" custom-class="userBtn">新 增</van-button>
+      </van-col>
+      <van-col span="4" offset="2">
+        <van-button color="rgb(244 63 94)" custom-class="userBtn" >删 除</van-button>
+      </van-col>
+    </van-row>
+    <view class="block_4" wx:if="{{!searchview}}" wx:for="{{currentData}}" wx:key="id">
+
+      <image src="{{item.image}}" class="text-wrapper_4" />
+      <view class="image-text_3">
+        <view class="text-group_3">
+          <text lines="1" class="text_13">{{item.userName?item.userName:item.workerName}}</text>
+          <text lines="1" class="text_14">{{item.userInfo?item.userInfo:item.workerInfo}}</text>
+        </view>
+
+      </view>
+    </view>
+    <view wx:if="{{ searchview }}" class="mask">
+  <view class="maskContent" bindtap="onMaskClick">
+    <scroll-view class="scrollview" scroll-y="true" scroll-into-view="searchResultView" scroll-with-animation>
+      <view wx:for="{{ searchList }}" wx:key="index" bindtap="searchView" data-index="{{ index }}" class="block_4">
+        <image src="{{item.image}}" class="text-wrapper_4" />
+      <view class="image-text_3">
+        <view class="text-group_3">
+          <text lines="1" class="text_13">{{item.userName?item.userName:item.workerName}}</text>
+          <text lines="1" class="text_14">{{item.userInfo?item.userInfo:item.workerInfo}}</text>
+        </view>
+
+      </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+
+
+
+  </view>
+</view>
