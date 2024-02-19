@@ -1,5 +1,5 @@
 {
-  "appid": "wx201f524479b43933",
+  "appid": "wxdada5643741b12ee",
   "compileType": "miniprogram",
   "libVersion": "3.2.1",
   "packOptions": {
@@ -30,5 +30,6 @@
   "editorSetting": {
     "tabIndent": "auto",
     "tabSize": 2
-  }
+  },
+  "projectname": "%E7%94%B5%E8%84%91%E5%B7%85%E5%B3%B0%E8%80%85"
 }
