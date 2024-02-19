@@ -4,7 +4,7 @@
   "setting": {
     "compileHotReLoad": true
   },
-  "condition": {s
+  "condition": {
     "miniprogram": {
       "list": [
         {
