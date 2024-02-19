@@ -1,0 +1,53 @@
+<view class="page">
+  <view class="section_1">
+    <view class="group_3">
+      <view class="group_4">
+        <view class="nav-bar_2">
+          <image src="https://lanhu.oss-cn-beijing.aliyuncs.com/MasterDDSSlicePNG2b956d2ae47f8f224d3da4de76372973.png" class="icon_1"></image>
+          <text lines="1" class="text_1">我的收入</text>
+        </view>
+        <image src="https://lanhu.oss-cn-beijing.aliyuncs.com/MasterDDSSlicePNGc93ec3e413b3d81a1da1b889a4014e0d.png" class="image_1"></image>
+      </view>
+    </view>
+    <view class="block_3">
+      <text lines="1" class="text_2">9:41</text>
+      <image src="https://lanhu.oss-cn-beijing.aliyuncs.com/MasterDDSSlicePNGad127793262d3f099f114218d5077e37.png" class="thumbnail_3"></image>
+      <image src="https://lanhu.oss-cn-beijing.aliyuncs.com/MasterDDSSlicePNG1baf9e9fad5bc910616ca96e152d9b2b.png" class="thumbnail_4"></image>
+      <image src="https://lanhu.oss-cn-beijing.aliyuncs.com/MasterDDSSlicePNGd9ce363ce5ec0c1c2007039daccffc48.png" class="image_2"></image>
+    </view>
+  </view>
+  <view class="list_2">
+    <view class="list-items_1-0">
+      <view class="group_5-0">
+        <image src="https://lanhu.oss-cn-beijing.aliyuncs.com/MasterDDSSlicePNG8a9aaa3ec229ace77f4933bb106df401.png" class="image_3-0"></image>
+      </view>
+      <view class="text-wrapper_3-0">
+        <text lines="1" class="text_4-0">今日收款0笔，共计</text>
+      </view>
+      <view class="text-wrapper_4-0">
+        <text lines="1" class="text_5-0">0.00</text>
+      </view>
+      <view class="group_6-0">
+        <view class="image-text_2-0">
+          <text lines="1" class="text-group_1-0">查看订单</text>
+          <image src="https://lanhu.oss-cn-beijing.aliyuncs.com/MasterDDSSlicePNGbe218ed101fcfa9871443304a29ad45f.png" class="icon_2-0"></image>
+        </view>
+      </view>
+    </view>
+    <view class="list-items_1-1">
+      <view class="group_5-1">
+        <image src="https://lanhu.oss-cn-beijing.aliyuncs.com/MasterDDSSlicePNG8a9aaa3ec229ace77f4933bb106df401.png" class="image_3-1"></image>
+        <text lines="1" class="text_3-1">总收入</text>
+      </view>
+      <view class="text-wrapper_4-1">
+        <text lines="1" class="text_5-1">0.00</text>
+      </view>
+      <view class="group_6-1">
+        <view class="image-text_2-1">
+          <text lines="1" class="text-group_1-1">查看订单</text>
+          <image src="https://lanhu.oss-cn-beijing.aliyuncs.com/MasterDDSSlicePNGbe218ed101fcfa9871443304a29ad45f.png" class="icon_2-1"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

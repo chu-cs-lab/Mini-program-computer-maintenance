@@ -1,0 +1,134 @@
+<engineer-header title="工程师中心"></engineer-header>
+
+<view class="page">
+  <view class="block_1">
+    <view class="section_1">
+      <button bindtap="onClick" class="button_1">
+        <text lines="1" class="text_3">师傅</text>
+      </button>
+    </view>
+    <view class="info_box">
+      <view class="img-box">
+        <image src="{{userInfo.avatar}}" class="avatar" mode=""/>
+      </view>
+      <view class="info-group">
+        <text lines="1" class="nickname">{{userInfo.nickname}}</text>
+        <text lines="1" class="level">LV.{{userInfo.level}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="block_4">
+    <view class="box_3">
+      <view class="image-text_9">
+        <image src="/images/engineer/all_order.png" class="icon_4" bind:tap="toOrder"></image>
+        <text lines="1" class="text-group_4">全部订单</text>
+      </view>
+      <view class="image-text_10">
+        <image src="/images/engineer/succeed.png" class="icon_5"></image>
+        <text lines="1" class="text-group_5">已完成</text>
+      </view>
+      <view class="image-text_11" bind:tap="toIncome">
+        <image src="/images/engineer/my_income.png" class="icon_6"></image>
+        <text lines="1" class="text-group_6">我的收入</text>
+      </view>
+      <view class="image-text_12">
+        <image src="/images/engineer/accepted.png" class="icon_7"></image>
+        <text lines="1" class="text-group_7">已接单</text>
+      </view>
+      <view class="image-wrapper_2">
+      </view>
+    </view>
+    <image src="/images/engineer/linetou.png" class="thumbnail_7"></image>
+  </view>
+  <text lines="1" class="text_7">切换到用户</text>
+  <view class="block_5">
+    <image src="/images/engineer/contact.png" class="icon_2"></image>
+    <view class="image-text_7">
+      <text lines="1" class="text-group_2">联系管理员</text>
+      <image src="/images/engineer/linetou.png" class="thumbnail_5"></image>
+    </view>
+  </view>
+  <view class="block_6">
+    <image src="/images/engineer/logout.png" class="icon_3"></image>
+    <view class="image-text_8">
+      <text lines="1" class="text-group_3">退出登录</text>
+      <image src="/images/engineer/linetou.png" class="thumbnail_6"></image>
+    </view>
+  </view>
+
+  <image src="/images/engineer/change2user.png" class="icon_8"></image>
+</view>
+<engineer-footer active="2"></engineer-footer>
+<!-- <view class="page">
+  <view class="group_9">
+    <view class="block_1">
+      <view class="section_1">
+        <button bindtap="onClick" class="button_1">
+          <text lines="1" class="text_3">师傅</text>
+        </button>
+      </view>
+      <view class="section_2">
+        <view class="text-wrapper_1">
+          <text lines="1" class="text_4">image</text>
+        </view>
+        <view class="text-group_8">
+          <text lines="1" class="text_5">昵称</text>
+          <text lines="1" class="text_6">LV.1</text>
+        </view>
+      </view>
+    </view>
+    <text lines="1" class="text_7">切换到用户</text>
+    <view class="block_5">
+      <image src="/images/engineer/contact.png" class="icon_2"></image>
+      <view class="image-text_7">
+        <text lines="1" class="text-group_2">联系管理员</text>
+        <image src="/images/engineer/linetou.png" class="thumbnail_5"></image>
+      </view>
+    </view>
+    <view class="block_6">
+      <image src="/images/engineer/logout.png" class="icon_3"></image>
+      <view class="image-text_8">
+        <text lines="1" class="text-group_3">退出登录</text>
+        <image src="/images/engineer/linetou.png" class="thumbnail_6"></image>
+      </view>
+    </view>
+    <view class="block_4">
+      <view class="box_3">
+        <view class="image-text_9">
+          <image src="/images/engineer/all_order.png" class="icon_4" bind:tap="toOrder"></image>
+          <text lines="1" class="text-group_4">全部订单</text>
+        </view>
+        <view class="image-text_10">
+          <image src="/images/engineer/succeed.png" class="icon_5"></image>
+          <text lines="1" class="text-group_5">已完成</text>
+        </view>
+        <view class="image-text_11" bind:tap="toIncome">
+          <image src="/images/engineer/my_income.png" class="icon_6"></image>
+          <text lines="1" class="text-group_6">我的收入</text>
+        </view>
+        <view class="image-text_12">
+          <image src="/images/engineer/accepted.png" class="icon_7"></image>
+          <text lines="1" class="text-group_7">已接单</text>
+        </view>
+        <view class="image-wrapper_2">
+        </view>
+      </view>
+      <image src="/images/engineer/linetou.png" class="thumbnail_7"></image>
+    </view>
+    <image src="/images/engineer/change2user.png" class="icon_8"></image>
+  </view>
+  <view class="tab-bar_1">
+    <view class="tab-bar-item_4">
+      <image src="/images/engineer/index.png" class="icon_9"></image>
+      <text lines="1" class="text_8">首页</text>
+    </view>
+    <view class="tab-bar-item_5" bind:tap="onOrder">
+      <image src="/images/engineer/ordering.png" class="icon_10"></image>
+      <text lines="1" class="text_9">待接订单</text>
+    </view>
+    <view class="tab-bar-item_6">
+      <image src="/images/engineer/mine.png" class="icon_11"></image>
+      <text lines="1" class="text_10">我的</text>
+    </view>
+  </view>
+</view> -->

@@ -1,0 +1,59 @@
+<view class="page">
+  <engineer-header title="我的订单"></engineer-header>
+
+
+  <view class="box_4">
+    <view class="tabs_1">
+      <view class="text-wrapper_16">
+        <text lines="1" class="text_3">全部订单</text>
+        <text lines="1" class="text_4">已接单</text>
+        <text lines="1" class="text_5">已完成</text>
+      </view>
+    </view>
+    <view class="group_4">
+      <view class="input_1">
+        <input type="text" name="search" placeholder="搜索" id=""/>
+      </view>
+    </view>
+  </view>
+
+      <view class="order-box" wx:for="{{order}}" wx:key="index" wx:for-item="o">
+        <view class="section_9">
+          <view class="image-text_4">
+            <text lines="1" class="text-group_1">{{o.username}}</text>
+            <image src="/images/engineer/lineRight.png" class="icon_3" ></image>
+          </view>
+          <text lines="1" class="text-status status-success" wx:if="{{o.status==2}}">已完成</text>
+          <text lines="1" class="text-status status-repairing" wx:if="{{o.status==1}}">维修中</text>
+          <text lines="1" class="text-status status-cancel" wx:if="{{o.status==-1}}">已取消</text>
+          <text lines="1" class="text-status status-wait" wx:if="{{o.status==0}}">待接单</text>
+
+
+        </view>
+        <view class="order-info">
+          <view class="order-img" wx:for="{{o.img}}" wx:key="img" wx:for-item="img">
+            <image src="{{img}}" mode="scaleToFill" show-menu-by-longpress="true"></image>
+          </view>
+          <view class="text-info">
+            <text lines="1" class="text_11">¥{{o.price}}</text>
+            <text lines="1" decode="true" class="text_12">共&nbsp;{{o.num}}&nbsp;件</text>
+          </view>
+        </view>
+        
+        <view class="text-wrapper_17">
+          <text lines="1" decode="true" class="text_13">下单时间：{{o.addtime}}</text>
+        </view>
+        <view class="section_11">
+          <button bindtap="onClick" class="button ">
+            <text lines="1" class="btn-text">删除订单</text>
+          </button>
+          <button bindtap="onClick" class="button ">
+            <text lines="1" class="btn-text">联系用户</text>
+          </button>
+          <button bindtap="onClick" class="button_qiangdan">
+            <text lines="1" class="btn-text-qd">去抢单</text>
+          </button>
+        </view>
+      </view>
+
+</view>

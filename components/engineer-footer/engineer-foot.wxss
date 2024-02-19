@@ -1,0 +1,26 @@
+.tabbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 80rpx; 
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.tabbar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabbar-icon {
+  width: 40rpx; /* 调整图标的大小 */
+  height: 40rpx;
+}
+
+.tabbar-text {
+  font-size: 24rpx; /* 调整文字大小 */
+}

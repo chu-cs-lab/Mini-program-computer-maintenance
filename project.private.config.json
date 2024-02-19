@@ -8,6 +8,13 @@
     "miniprogram": {
       "list": [
         {
+          "name": "工程师",
+          "pathName": "pages/engineer/mine/engineer",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "我的",
           "pathName": "pages/me/me",
           "query": "",

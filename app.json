@@ -3,7 +3,12 @@
     "pages/index/index",
     "pages/list/list",
     "pages/me/me",
-    "pages/list-clear/list-clear"
+    "pages/list-clear/list-clear",
+    "pages/logs/logs",
+    "pages/engineer/mine/engineer",
+    "pages/engineer/order/order",
+    "pages/engineer/waiting/waiting",
+    "pages/engineer/income/income"
   ],
   "window": {
     "navigationBarTextStyle": "black",
