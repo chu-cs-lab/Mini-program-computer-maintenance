@@ -9,7 +9,6 @@ Component({
         item.selected = (i == this.properties.active);
         return item;
       })
-      console.log(tabs);
       this.setData({
         tabs:tabs
       })
@@ -43,17 +42,14 @@ Component({
   methods: {
     switchTab(e) {
       const index = e.currentTarget.dataset.index;
-      // const tabs = this.data.tabs.map((item, i) => {
-      //   item.selected = i === index;
-      //   return item;
-      // });
-      // this.setData({ tabs });
       wx.navigateTo({
         url: this.data.tabs[index].pagePath
       })
-      wx.switchTab({
-        url: '/pages/index/index',
-      })
+      if(index == 0){
+        wx.switchTab({
+          url: '/pages/index/index',
+        })
+      }
     }
   }
 });
