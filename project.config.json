@@ -1,5 +1,5 @@
 {
-  "appid": "wx201f524479b43933",
+  "appid": "wxdada5643741b12ee",
   "compileType": "miniprogram",
   "libVersion": "3.2.1",
   "packOptions": {
@@ -24,7 +24,8 @@
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
-    }
+    },
+    "ignoreUploadUnusedFiles": true
   },
   "condition": {},
   "editorSetting": {

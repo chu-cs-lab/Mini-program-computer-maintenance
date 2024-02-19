@@ -1,0 +1,37 @@
+<view class="page">
+  <view class="block_1">
+    <view class="section_2">
+      <view class="top-box">
+        <view class="top">
+          <image src="/images/engineer/back.png" class="icon_1" bind:tap="onBack"></image>
+          <text lines="1" class="text_title">待接订单</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+    <view class="list-order">
+      <view class="list-item" wx:for="{{order}}" wx:key="id" wx:for-item="order">
+        <view class="description">
+          <text lines="1" class="text_ms">{{order.description}}</text>
+          <image src="/images/engineer/lineRight.png" class="thumbnail_5-0"></image>
+        </view>
+        <text lines="1" decode="true" class="text_4-0">服务项目：&nbsp;{{order.type}}</text>
+        <text lines="1" class="text_5-0">服务地址：{{order.address}}</text>
+        <text lines="1" class="text_6-0">订单编号：{{order.order_sn}}</text>
+        <view class="group_2-0"></view>
+        <view class="section_4-0">
+          <text lines="1" decode="true" class="text_7-0">发布时间：&nbsp;{{order.addtime}}</text>
+          <button bindtap="onClick" class="button-save" size="mini">
+            立即接单
+          </button>
+        </view>
+
+      
+    </view>
+  </view>
+
+
+  <engineer-footer active="1"></engineer-footer>
+  
+</view>

@@ -1,0 +1,20 @@
+/* components/engineer-header/engineer-header.wxss */
+.header{
+  background-color: rgba(236,175,54,1.000000);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left:20rpx;
+  padding-right:20rpx;
+}
+
+.header .title{
+  height: 34rpx;
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

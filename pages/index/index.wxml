@@ -47,4 +47,4 @@ duration="{{ swiperOptions.duration}}"
   title="商品标题"
   thumb="/images/icon-clear.png"
 />
-</view> 
+</view>
