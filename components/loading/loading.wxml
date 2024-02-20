@@ -1,0 +1,7 @@
+<!--components/loading-animation/loading.wxml-->
+<view class="container {{className}}">
+  <view class="loading-box {{boxClass}}">
+  <image src="/images/loading.png" class="loading-img {{animationClass}}"/>
+  <text class="loading-text">{{text}}</text>
+  </view>
+</view>
