@@ -1,6 +1,5 @@
 <view class="page">
-  <engineer-header title="我的订单"></engineer-header>
-
+  <engineer-header title="我的订单" bind:tap="add"></engineer-header>
 
   <view class="box_4">
     <view class="tabs_1">
@@ -16,7 +15,6 @@
       </view>
     </view>
   </view>
-
       <view class="order-box" wx:for="{{order}}" wx:key="index" wx:for-item="o">
         <view class="section_9">
           <view class="image-text_4">

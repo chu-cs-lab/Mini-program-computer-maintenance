@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    loading:true,
     userInfo:{
       nickname:"蔡徐坤",
       level:2.5,
@@ -26,19 +27,41 @@ Page({
       url: '/pages/engineer/order/order',
     });
   },
+  // 切换到user
+  onUser(){
+    wx.switchTab({
+      url: '/pages/user/me/me',
+    })
+  },
+
+  // 联系管理员点击时间
+  contract(){
+    console.log("等待开发");
+  },
+  // 退出登录
+  logout(){
+
+  },
+
+
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    this.setData({
+      loading:true
+    });
+    
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady() {
-
+    this.setData({
+      loading:false
+    });
   },
 
   /**
