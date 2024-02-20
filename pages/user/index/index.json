@@ -1,7 +1,7 @@
 {
   "usingComponents": {
     "van-nav-bar": "@vant/weapp/nav-bar/index",
-    "swiper":"../../components/swiper/swiper",
+    "swiper":"/components/swiper/swiper",
     "van-grid": "@vant/weapp/grid/index",
     "van-grid-item": "@vant/weapp/grid-item/index",
     "van-icon": "@vant/weapp/icon/index",

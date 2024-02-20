@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/list/list",
-    "pages/me/me",
-    "pages/list-clear/list-clear",
+    "pages/user/index/index",
+    "pages/user/list/list",
+    "pages/user/me/me",
+    "pages/user/list-clear/list-clear",
     "pages/logs/logs",
     "pages/engineer/mine/engineer",
     "pages/engineer/order/order",
@@ -27,19 +27,19 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/user/index/index",
         "text": "首页",
         "iconPath": "./images/icon-index.png",
         "selectedIconPath": "./images/icon-index-1.png"
       },
       {
-        "pagePath": "pages/list/list",
+        "pagePath": "pages/user/list/list",
         "text": "维修列表",
         "iconPath": "./images/icon-list.png",
         "selectedIconPath": "./images/icon-list-1.png"
       },
       {
-        "pagePath": "pages/me/me",
+        "pagePath": "pages/user/me/me",
         "text": "我的",
         "iconPath": "./images/icon-me.png",
         "selectedIconPath": "./images/icon-me-1.png"
