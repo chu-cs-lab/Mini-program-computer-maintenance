@@ -1,7 +1,10 @@
 // custom-tabbar.js
 Component({
   properties:{
-    active:1,
+    active:{
+      type:Number,
+      value:0
+    }
   },
   lifetimes:{
     attached:function(){
@@ -36,7 +39,7 @@ Component({
       selectedIconPath: '/images/engineer/mine_selected.png',
       selected: false,
       pagePath:"/pages/engineer/mine/engineer"
-    }
+    },
     ]
   },
   methods: {
