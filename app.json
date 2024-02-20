@@ -24,6 +24,7 @@
   },
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
   "tabBar": {
     "list": [
       {
