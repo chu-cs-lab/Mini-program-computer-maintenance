@@ -21,31 +21,41 @@ Page({
         {
           text:"待添加",
           icon:"add-o",
-          color:"#ff0000"
+          color:"#ff0000",
+          url:""
         },   {
           text:"待添加",
           icon:"add-o",
-          color:"#ff0000"
+          color:"#ff0000",
+          url:""
         },   {
           text:"待添加",
           icon:"add-o",
-          color:"#ff0000"
+          color:"#ff0000",
+          url: ""
         },   {
           text:"待添加",
           icon:"add-o",
-          color:"#ff0000"
-        },   {
+          color:"#ff0000",
+          url:""
+        },  
+        {
           text:"待添加",
           icon:"add-o",
-          color:"#ff0000"
-        },   {
+          color:"#ff0000",
+          url:""
+        },  
+        {
           text:"待添加",
           icon:"add-o",
-          color:"#ff0000"
-        },   {
+          color:"#ff0000",
+          url:""
+        },   
+        {
           text:"待添加",
           icon:"add-o",
-          color:"#ff0000"
+          color:"#ff0000",
+          url:""
         },
       ]
   },
