@@ -12,24 +12,24 @@ Page({
       id: "01",
       userName: "A用户",
       userInfo: "A介绍",
-      image: "../../image/active-note.png"
+      image: "../../images/manager/active-note.png"
     }, {
       id: "02",
       userName: "B用户",
       userInfo: "B介绍",
-      image: "../../image/active-user.png"
+      image: "../../images/manager/active-user.png"
 
     }],
     workerdata: [{
       id: "03",
       workerName: "A师傅",
       workerInfo: "A介绍",
-      image: "../../image/address-book.png"
+      image: "../../images/manager/address-book.png"
     }, {
       id: "04",
       workerName: "B师傅",
       workerInfo: "B介绍",
-      image: "../../image/checklist.png"
+      image: "../../images/manager/checklist.png"
 
     }],
     currentData: []
