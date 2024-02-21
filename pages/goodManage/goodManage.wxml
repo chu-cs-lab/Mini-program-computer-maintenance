@@ -1,0 +1,100 @@
+<van-tabs active="{{ active }}" title-inactive-color="rgb(156 163 175)" wrap-class="tab" tab-class="tabs" bind:change="onChange" line-width="0" animated swipeable title-active-color="rgb(156,241,187)" sticky="true">
+  <van-tab title="未接单">
+    <van-tabs active="{{ active }}" bind:change="onChange" title-active-color="#60a5fa" >
+  <van-tab title="电脑维修" >  <view class="page">
+      <van-card custom-class="card" wx:for="{{info}}" wx:key="goodId">
+        <view slot="title" class="titleText">
+          <view>{{item.pName}}</view>
+
+        </view>
+        <view slot="desc" class="descText ">
+          <view>服务名称: {{item.serviceName}}</view>
+          <view>服务地址: {{item.address}}</view>
+          <view>订单编号: {{item.goodId}}</view>
+         
+          <van-divider />
+      
+          <view>发布时间: {{item.createDate}}</view>
+        
+        </view>
+
+        <view slot="footer">
+          <van-button bind:tap="bindManageButton" round type="info" hairline custom-style="btn1" color="#fff" custom-style="border:2px solid rgb(74 222 128);color:rgb(74 222 128);width:22%;margin-top:-50px;font-weight:700">管 理</van-button>
+
+
+        </view>
+
+      </van-card>
+      
+    </view></van-tab>
+  <van-tab title="标签 2">内容 2</van-tab>
+  <van-tab title="标签 3">内容 3</van-tab>
+  <van-tab title="标签 4">内容 4</van-tab>
+</van-tabs>
+  
+  </van-tab>
+  <van-tab title="已接单"> <view class="page">
+      <van-card custom-class="card" wx:for="{{info}}" wx:key="goodId">
+        <view slot="title" class="titleText">
+          <view>{{item.pName}}</view>
+
+        </view>
+        <view slot="desc" class="descText ">
+          <view>服务名称: {{item.serviceName}}</view>
+          <view>服务地址: {{item.address}}</view>
+          <view>订单编号: {{item.goodId}}</view>
+          <view class="prices van-hairline--surround">预算：$100 
+          </view>
+          <van-divider />
+         <view class="titleText">师傅信息</view>
+         <view>姓名: {{item.workerName}}</view>
+          <view>学号: {{item.stuId}}</view>
+          <view>订单编号: {{item.goodId}}</view>
+          <view class="prices van-hairline--surround">成交价：$100 </view>
+          <van-divider />
+          <view>发布时间: {{item.createDate}}</view>
+          <view>接单时间: {{item.acceptDate}}</view>
+        </view>
+
+        <view slot="footer">
+          <van-button bind:tap="bindManageButton" round type="info" hairline custom-style="btn1" color="#fff" custom-style="border:2px solid rgb(74 222 128);color:rgb(74 222 128);width:20%;margin-top:-100px;font-weight:700">管 理</van-button>
+
+
+        </view>
+
+      </van-card>
+    </view></van-tab>
+  <van-tab title="已完成"> <view class="page">
+      <van-card custom-class="card" wx:for="{{info}}" wx:key="goodId">
+        <view slot="title" class="titleText">
+          <view>{{item.pName}}</view>
+
+        </view>
+        <view slot="desc" class="descText ">
+          <view>服务名称: {{item.serviceName}}</view>
+          <view>服务地址: {{item.address}}</view>
+          <view>订单编号: {{item.goodId}}</view>
+          <view class="prices van-hairline--surround">预算：$100 
+          </view>
+          <van-divider />
+         <view class="titleText">师傅信息</view>
+         <view>姓名: {{item.workerName}}</view>
+          <view>学号: {{item.stuId}}</view>
+          <view>订单编号: {{item.goodId}}</view>
+          <view class="prices van-hairline--surround">成交价：$100 </view>
+          <van-divider />
+          <view>发布时间: {{item.createDate}}</view>
+          <view>接单时间: {{item.acceptDate}}</view>
+          <view>完成时间: {{item.finishedDate}}</view>
+        </view>
+
+        <view slot="footer">
+          <van-button bind:tap="bindManageButton" round type="info" hairline custom-style="btn1" color="#fff" custom-style="border:2px solid rgb(74 222 128);color:rgb(74 222 128);width:20%;margin-top:-100px;font-weight:700">管 理</van-button>
+
+
+        </view>
+
+      </van-card>
+    </view></van-tab>
+
+</van-tabs>

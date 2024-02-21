@@ -1,0 +1,27 @@
+<view class="page">
+  <van-search value="{{ value }}" placeholder="请输入搜索关键词" class="search-wrapper" />
+
+  <view class="box_5">
+    <van-row>
+      <van-col span="4" offset="12">
+        <van-button type="info" custom-class="userBtn">新 增</van-button>
+      </van-col>
+      <van-col span="4" offset="2">
+        <van-button color="rgb(244 63 94)" custom-class="userBtn" >删 除</van-button>
+      </van-col>
+    </van-row>
+    <view class="block_4" wx:for="{{currentData}}" wx:key="{{item.id}}">
+
+      <image src="{{item.image}}" mode="" class="text-wrapper_4" />
+      <view class="image-text_3">
+        <view class="text-group_3">
+          <text lines="1" class="text_13">{{item.userName?item.userName:item.workerName}}</text>
+          <text lines="1" class="text_14">{{item.userInfo?item.userInfo:item.workerInfo}}</text>
+        </view>
+
+      </view>
+    </view>
+
+
+  </view>
+</view>

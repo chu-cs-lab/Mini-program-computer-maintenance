@@ -1,18 +1,42 @@
-// pages/logs/logs.js
+// pages/userManage/userManage.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    userdata:[{
+      userName:"A用户",
+      userInfo:"A介绍",
+      image:"../../image/active-note.png"
+    },{  userName:"B用户",
+    userInfo:"B介绍",
+    image:"../../image/active-user.png"
 
+    }],
+    workerdata:[{
+      workerName:"A师傅",
+      workerInfo:"A介绍",
+      image:"../../image/address-book.png"
+    },{  workerName:"B师傅",
+    workerInfo:"B介绍",
+    image:"../../image/checklist.png"
+
+    }],
+    currentData:[]
   },
-
+  userPage(){
+    this.setData({currentData:this.data.userdata})
+  },
+  workerPage(){
+    this.setData({currentData:this.data.workerdata})
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    this.setData({currentData:this.data.userdata})
+    console.log(this.data.currentData)
   },
 
   /**
