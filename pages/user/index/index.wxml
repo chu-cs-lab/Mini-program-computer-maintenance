@@ -8,7 +8,7 @@ duration="{{ swiperOptions.duration}}"
 ></swiper>
 <view class="nav"> 
   <van-grid column-num="4">
-    <van-grid-item  url="{{ item.url }}" icon-color="{{ item.color }}" icon="{{item.icon}}" text="{{item.text}}" wx:for="{{ navData }}" wx:key="*this" />
+    <van-grid-item  url="{{ item.url}}" icon-color="{{ item.color }}" icon="{{item.icon}}" text="{{item.text}}" wx:for="{{ navData }}" wx:key="*this"/>
   </van-grid>
 </view>
 

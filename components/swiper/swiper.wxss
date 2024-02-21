@@ -2,6 +2,6 @@
 .swiper{
   padding: 0 10px;
 }
-image{
+.image{
   width: 100%;
 }
