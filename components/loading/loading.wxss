@@ -1,0 +1,57 @@
+/* components/loading-animation/loading.wxss */
+.container{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.355);
+  z-index: 100;
+}
+
+.show{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden{
+  display: none;
+}
+
+.loading-box{
+  position: relative;
+  width: 280rpx;
+  height: 280rpx;
+  background-color: rgba(90, 84, 84, 0.719);
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loading-img{
+  width: 100rpx;
+  height: 100rpx;
+}
+.animation{
+  animation: circle 1.8s forwards infinite;
+}
+.loading-text{
+  color: white;
+  margin-top: 20rpx;
+}
+@keyframes circle{
+  /*转圈 */
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+
+}
+.no-animation{
+  animation-play-state: paused;
+}
